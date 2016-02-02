@@ -16,7 +16,7 @@ namespace ASPNET4._5.MVC5.RealTime_AppWithSignalR
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "FrontHome", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
